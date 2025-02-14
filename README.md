@@ -21,7 +21,7 @@ Task Manager is a responsive web application built with React, Vite, and TypeScr
 
 ## Technologies Used
 
-- React 18
+- React 19
 - Vite
 - TypeScript
 - Tailwind CSS
