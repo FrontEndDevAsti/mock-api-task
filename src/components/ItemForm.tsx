@@ -36,6 +36,7 @@ export const ItemForm: React.FC<ItemFormProps> = ({ onSubmit }) => {
     <form
       onSubmit={handleSubmit}
       className="max-w-md mx-auto mb-8 bg-[#1E222A] p-6 rounded-lg shadow-lg border border-[#2B3040]"
+      data-aos="fade-down"
     >
       <div className="mb-4">
         <label
@@ -53,7 +54,7 @@ export const ItemForm: React.FC<ItemFormProps> = ({ onSubmit }) => {
           className="bg-[#222630] px-4 py-3 outline-none w-full text-white rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
         />
         {formErrors.title && (
-          <p className="text-red-500 text-xs italic mt-1">{formErrors.title}</p>
+          <p className="text-red-500 text-sm mt-1">{formErrors.title}</p>
         )}
       </div>
       <div className="mb-6">

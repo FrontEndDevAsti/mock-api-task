@@ -35,6 +35,7 @@ export const ItemList: React.FC<ItemListProps> = ({
         <div
           key={item.id}
           className="bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 grid grid-cols-1 p-4 gap-4 rounded-lg shadow-md"
+          data-aos="fade-up"
         >
           {editingId === item.id ? (
             <>
