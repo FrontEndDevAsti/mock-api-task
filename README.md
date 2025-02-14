@@ -15,8 +15,8 @@ Make sure you have the following installed before proceeding:
 
 ### 🛠️ Installation Steps
 
-1. **Clone the repository**  
-   Open your terminal and run the following command:  
+ Open your terminal and run the following command:  
+1. **Clone the repository**    
    ```sh
    git clone https://github.com/FrontEndDevAsti/mock-api-task
 
