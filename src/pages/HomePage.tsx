@@ -1,8 +1,10 @@
-import React from 'react'
+import { ItemForm } from "../components/ItemForm"
+
+
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <ItemForm onSubmit={""} />
   )
 }
 
