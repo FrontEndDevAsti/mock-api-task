@@ -22,16 +22,13 @@ Make sure you have the following installed before proceeding:
 
 2. **Navigate to the project directory**
      ```sh
-       cd mock-api-task
-      
+       cd mock-api-task     
 3.**Install dependencies**
-  ```sh
-  npm install
-  
+    ```sh
+       npm install 
 4.**Start the development server**
-  ```sh
-  npm run dev
-
+    ```sh
+     npm run dev
 5. Open your browser and visit `http://localhost:5173` to view the application.  
 
 ## Project Overview
