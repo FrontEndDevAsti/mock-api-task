@@ -3,4 +3,5 @@ export interface Item {
   title: string
   body: string
   userId: number
+  createdAt: number;
 }
