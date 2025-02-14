@@ -4,7 +4,7 @@
 
 You can access the live demo of this project at: [Task Manager Demo](https://mock-api-task.vercel.app/)
 
-## 🚀 Steps to Run the Project Locally
+##  Steps to Run the Project Locally
 
 Follow these steps to set up and run the project on your local machine.
 
