@@ -22,7 +22,10 @@ Make sure you have the following installed before proceeding:
 
 2. **Navigate to the project directory**
      ```sh
-       cd mock-api-task     
+       cd mock-api-task
+2. **Navigate to the project directory**
+     ```sh
+         npm install          
 3.**Install dependencies**
     ```sh
        npm install 
