@@ -20,13 +20,16 @@ Make sure you have the following installed before proceeding:
    ```sh
    git clone https://github.com/FrontEndDevAsti/mock-api-task
 
-2.**Navigate to the project directory**
-  cd mock-api-task
-
+2. **Navigate to the project directory**
+     ```sh
+       cd mock-api-task
+      
 3.**Install dependencies**
+  ```sh
   npm install
   
 4.**Start the development server**
+  ```sh
   npm run dev
 
 5. Open your browser and visit `http://localhost:5173` to view the application.  
