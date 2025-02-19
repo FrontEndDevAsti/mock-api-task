@@ -12,10 +12,12 @@ export const fetchItems = async () => {
   }
 };
 
+let lastUsedId = 100;
 export const createItem = async (title: string, body: string) => {
   try {
     const response = await axios.post(API_URL, { title, body });
-    return response.data;
+    lastUsedId++;
+    return { ...response.data, id: lastUsedId };
   } catch (error) {
     console.error("Error creating item", error);
     return null;
