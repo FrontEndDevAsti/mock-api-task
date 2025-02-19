@@ -4,6 +4,33 @@
 
 You can access the live demo of this project at: [Task Manager Demo](https://mock-api-task.vercel.app/)
 
+##  Steps to Run the Project Locally
+
+Follow these steps to set up and run the project on your local machine.
+
+### 📌 Prerequisites
+Make sure you have the following installed before proceeding:
+- **Node.js** (version 14 or higher) → [Download here](https://nodejs.org/)
+- **Git** → [Download here](https://git-scm.com/)
+
+### 🛠️ Installation Steps
+
+ Open your terminal and run the following command:  
+1. **Clone the repository**    
+   ```sh
+   git clone https://github.com/FrontEndDevAsti/mock-api-task
+
+2. **Navigate to the project directory**
+     ```sh
+     cd mock-api-task
+3. **Install dependencies**
+     ```sh
+     npm install          
+4. **Start the development serve**
+     ```sh
+     npm run dev     
+5. Open your browser and visit `http://localhost:5173` to view the application.  
+
 ## Project Overview
 
 Task Manager is a responsive web application built with React, Vite, and TypeScript. It allows users to create, read, update, and delete tasks in an intuitive interface. The application features a modern design with smooth animations and is fully responsive across all devices.
@@ -44,17 +71,6 @@ Task Manager is a responsive web application built with React, Vite, and TypeScr
 9. **src/index.css**: Global CSS file, including Tailwind CSS imports.
 10. **vite.config.ts**: Configuration file for Vite.
 
-## Setup and Installation
-
-1. Clone the repository:https://github.com/FrontEndDevAsti/mock-api-task
-
-2. Navigate to the project directory
-
-3. Install dependencies:npm install
-
-4. Start the development server: npm run dev
-
-5. Open your browser and visit `http://localhost:5173` to view the application.
 
 ## Building for Production
 
@@ -101,28 +117,6 @@ Error handling is implemented throughout the application:
 - Form validation ensures that users cannot submit empty tasks
 - Loading states are managed to provide feedback during asynchronous operations
 
-## Future Enhancements
-
-- Implement user authentication
-- Add task categories or tags
-- Implement a search functionality
-- Add due dates and reminders for tasks
-- Integrate with a real backend API
-- Add unit and integration tests
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
